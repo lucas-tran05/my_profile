@@ -16,6 +16,10 @@
         background-color: var(--color-secondary);
         padding: 8px;
         border-radius: 10px;
-        
+        line-height: 2;
+    }
+
+    .nav-text{
+        font-size: x-small;
     }
 }

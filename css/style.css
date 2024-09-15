@@ -37,7 +37,7 @@ body, html {
     }
 
     @media (max-width: 768px) {
-        height: 130vh;
+        height: 120vh;
     }
 }
 
@@ -48,6 +48,10 @@ body, html {
 /* Color Utility */
 .userColor {
     color: var(--color-primary) !important;
+}
+
+.userBgColor {
+    background-color: var(--color-tertiary) !important;
 }
 
 /* Box ID */
@@ -71,4 +75,9 @@ body, html {
 
 .hover:hover {
     opacity: 0.7;
+}
+
+.f-visible:focus-visible {
+    outline: none;
+    border-bottom: #16325B 2px solid !important;
 }
