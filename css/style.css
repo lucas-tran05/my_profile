@@ -1,0 +1,74 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Root Variables */
+:root {
+    --color-primary: #16325B;
+    --color-secondary: #F4EDE5;
+    --color-tertiary: #E6DACE;
+}
+
+/* Body and HTML */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Container */
+.container-fluid {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Layout Elements */
+.left-element {
+    background-color: var(--color-tertiary);
+    content: " ";
+
+    @media (min-width: 768px) {
+        height: 90vh;
+    }
+
+    @media (max-width: 768px) {
+        height: 130vh;
+    }
+}
+
+.right-element {
+    content: " ";
+}
+
+/* Color Utility */
+.userColor {
+    color: var(--color-primary) !important;
+}
+
+/* Box ID */
+#box-id {
+    background-color: var(--color-secondary);
+    padding: 15px;
+}
+
+/* Divider */
+.divider {
+    width: 20%;
+    border-top: 3px solid rgb(0, 0, 255);
+}
+
+/* Social Media Links */
+#social {
+    width: 80%;
+    color: black;
+    background-color: white;
+}
+
+.hover:hover {
+    opacity: 0.7;
+}

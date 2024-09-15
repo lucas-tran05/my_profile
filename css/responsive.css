@@ -1,0 +1,21 @@
+:root {
+    --color-primary: #16325B;
+    --color-secondary: #F4EDE5;
+    --color-tertiary: #E6DACE;
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (max-width: 768px) {
+    .hide {
+        display: none;
+    }
+    #navbar {
+        background-color: var(--color-secondary);
+        padding: 8px;
+        border-radius: 10px;
+        
+    }
+}
