@@ -11,6 +11,6 @@ function loadHTML(elementId, fileName) {
 
 // Khi trang được tải, gọi hàm loadHTML để tải header và footer
 window.onload = function() {
-    loadHTML("header-placeholder", "../components/header.html");
-    loadHTML("footer-placeholder", "../components/footer.html");
+    loadHTML("header-placeholder", "./components/header.html");
+    loadHTML("footer-placeholder", "./components/footer.html");
 };
