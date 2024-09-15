@@ -9,7 +9,6 @@ function loadHTML(elementId, fileName) {
     xhttp.send();
 }
 
-// Khi trang được tải, gọi hàm loadHTML để tải header và footer
 window.onload = function() {
     loadHTML("header-placeholder", "/my_profile/components/header.html");
     loadHTML("footer-placeholder", "/my_profile/components/footer.html");
