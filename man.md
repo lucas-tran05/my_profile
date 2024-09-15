@@ -16,3 +16,8 @@ Cấu trúc website tĩnh
 
 9. Tối ưu SEO
 Đảm bảo mỗi trang HTML có thẻ <title>, thẻ <meta> cho từ khóa và mô tả để giúp tối ưu SEO.
+
+need fix
+loadContent.js
+index.js
+header.js
