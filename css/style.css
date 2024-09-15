@@ -31,14 +31,6 @@ body, html {
 .left-element {
     background-color: var(--color-tertiary);
     content: " ";
-
-    @media (min-width: 768px) {
-        height: 90vh;
-    }
-
-    @media (max-width: 768px) {
-        height: 120vh;
-    }
 }
 
 .right-element {
@@ -57,7 +49,7 @@ body, html {
 /* Box ID */
 #box-id {
     background-color: var(--color-secondary);
-    padding: 15px;
+    padding: 60px 0 20px 0;
 }
 
 /* Divider */
